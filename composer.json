@@ -1,0 +1,33 @@
+{
+    "name": "melvinachterhuis/variant-switch-shopware6-plugin",
+    "description": "Removes backdrop when switching variants",
+    "version": "1.0.0",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Melvin Achterhuis"
+        }
+    ],
+    "require": {
+        "shopware/core": "6.4.*",
+        "shopware/storefront": "6.4.*",
+        "shopware/administration": "6.4.*"
+    },
+    "type": "shopware-platform-plugin",
+    "autoload": {
+        "psr-4": {
+            "Melv\\VariantSwitch\\": "src/"
+        }
+    },
+    "extra": {
+        "shopware-plugin-class": "Melv\\VariantSwitch\\MelvVariantSwitch",
+        "label": {
+            "de-DE": "Variant Switch",
+            "en-GB": "Variant Switch"
+        },
+        "description": {
+            "de-DE": "Entfernt den Hintergrund beim Wechseln von Varianten",
+            "en-GB": "Removes backdrop when switching variants"
+        }
+    }
+}
