@@ -1,5 +1,7 @@
 ## A plugin for [Shopware 6](https://github.com/shopware/platform)
 
+Remove the backdrop when switching variants on the product detail page
+
 ## Requirements
 
 | Version 	| Requirements               	|
